@@ -19,7 +19,7 @@ else
     echo "Update is required, gathering package..."
     wget $URL -O $TEMP_LOCATION
     if [ "$?" = "0" ]; then 
-        echo echo "Gathered package"
+        echo "Gathered package"
         echo "Installing, sudo rights will be required:"
     else 
         echo "Something went wrong. URL used to gather package: $URL. Exiting."
