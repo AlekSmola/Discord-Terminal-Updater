@@ -27,6 +27,13 @@ The script can be placed as a part of other updater script, or it can be placed 
 
 Works on Kubuntu 22.04.
 
+To add execution permisstion the following shall be run: 
+`chmod +x  discord_updater.sh`
+
+
+
+<br>
+
 # 2. Remarks
 
 If update is available, `sudo` permissions will be required to install it. They will have to provided by user.
@@ -40,4 +47,4 @@ Removing update packege: /home/user/Downloads/discord_update.deb
 ```
 <br>
 <br> 
-Have fun!
+**Have fun!**
